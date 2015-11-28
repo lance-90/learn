@@ -1,0 +1,12 @@
+#vim temp file
+*~
+
+
+
+#C++
+*.o
+*.so
+
+
+#java
+*.class
