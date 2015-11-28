@@ -1,5 +1,5 @@
-run : main.o add.o sub.o mul.o dev.o
-	cc -o run main.o add.o \
+run.exe : main.o add.o sub.o mul.o dev.o
+	cc -o run.exe main.o add.o \
 		sub.o mul.o dev.o
 
 add.o : add.c common.h
@@ -14,7 +14,7 @@ main.o : main.c common.h
 	cc -c main.c
 
 clean :
-	rm add.o sub.o mul.o dev.o
+	rm add.o sub.o mul.o dev.o main.o run.exe
 
 
 
